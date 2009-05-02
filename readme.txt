@@ -38,7 +38,7 @@ This section describes how to install the plugin and get it working.
 
 1. Upload the 'code_block_enabler/' folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Write posts/pages while using the "`<code>``</code>`" block
+1. Write posts/pages while using the `<code>` `</code>` block
 1. Go to the Options page and click Writing. Make sure "WordPress should correct invalidly nested XHTML automatically" is NOT checked. (Otherwise it may do funny things to your code listings.)
 1. Go to the Users page and click Your Profile. Make sure "Use the visual rich editor when writing" is NOT checked. (The visual rich editor does not like Code Block Enabler.)
 
