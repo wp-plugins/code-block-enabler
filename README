@@ -1,0 +1,30 @@
+Wordpress Code Block Enabler
+
+DESCRIPTION
+
+The Code Block Enabler is a Wordpress plugin that allows code blocks within Wordpress pages/posts and also colorizes the output using Google Prettify.
+
+INSTRUCTIONS
+
+1. Copy this file into the plugins directory in your WordPress installation (wp-content/plugins).
+2. Log in to WordPress administration. Go to the Plugins page and Activate this plugin.
+3. Go to the Options page and click Writing. Make sure "WordPress should correct invalidly nested XHTML automatically" is NOT checked. (Otherwise it may do funny things to your code listings.)
+4. Go to the Users page and click Your Profile. Make sure "Use the visual rich editor when writing" is NOT checked. (The visual rich editor does not like Code Block Enabler.)  
+
+BUILD INSTRUCTIONS:
+
+run 'make' it will zip the contents of he plugin it will be ready for distribution
+
+Copyright (C) 2009 Ahmed Ben Messaoud (ahmed at digitaladept dotcom)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of version 2 of the GNU General Public
+License as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details, available at
+http://www.gnu.org/copyleft/gpl.html
+or by writing to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
