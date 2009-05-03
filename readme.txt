@@ -3,7 +3,7 @@ Contributors: ahmedbm
 Tags: code, format, markup, java, xml, c#, c++, .net, html, prettify, block, formatting 
 Requires at least: 2.0.2
 Tested up to: 2.7.1
-Stable tag: 1.0
+Stable Tag: 1.0
 
 The Code Block Enabler is a plugin that allows code blocks within Wordpress pages/posts and also colorizes the output using Google Prettify.
 
@@ -21,14 +21,14 @@ USAGE
 
 1. Enclose any code inside a `<code>` block.
 1. Use `<code markup="..." lang="...">` to specify appearance of code.
-	*	Include any HTML markup you like in the code, for example to add emphasis to certain sections.
-	*	Separate `<code>` blocks should be nested within a `<pre>` block to preserve whitespace.
+*Include any HTML markup you like in the code, for example to add emphasis to certain sections.
+*Separate `<code>` blocks should be nested within a `<pre>` block to preserve whitespace.
 1. If you want to fine-tune how Code Markup treats your code, use the markup and lang attributes on the code tag to specify how Code Markup should handle it.
-	*	`<code>` or `<code markup="default">` allows common HTML tags to be rendered, and displays everything else exactly as written.
-	*	`<code markup="none">` displays content exactly as written - no markup is rendered.
-	*	`<code markup="all">` renders content as HTML - all markup is rendered.
-	*	`<code markup="em strong a">` treats `<em>`, `<strong>` and `<a>` tags as HTML markup - everything else is displayed exactly as written. You can put whatever tags you like in the markup attribute, separated by spaces. As a special case, you can include the comment tag - this means that HTML comments `<!-- like this -->` will be rendered as normal HTML comments (i.e. not displayed).
-	*	`<code lang="html">` or `<code lang="xhtml">` displays content exactly as written, the same as `<code markup="none">`.
+* `<code>` or `<code markup="default">` allows common HTML tags to be rendered, and displays everything else exactly as written.
+* `<code markup="none">` displays content exactly as written - no markup is rendered.
+* `<code markup="all">` renders content as HTML - all markup is rendered.
+* `<code markup="em strong a">` treats `<em>`, `<strong>` and `<a>` tags as HTML markup - everything else is displayed exactly as written. You can put whatever tags you like in the markup attribute, separated by spaces. As a special case, you can include the comment tag - this means that HTML comments `<!-- like this -->` will be rendered as normal HTML comments (i.e. not displayed).
+* `<code lang="html">` or `<code lang="xhtml">` displays content exactly as written, the same as `<code markup="none">`.
 1. The markup attribute overrides the lang attribute.
 1. Separate `<code>` blocks should be nested within a `<pre>` block to preserve whitespace.
 
