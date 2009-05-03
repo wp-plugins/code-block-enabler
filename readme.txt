@@ -3,7 +3,7 @@ Contributors: ahmedbm
 Tags: code, format, markup, java, xml, c#, c++, .net, html, prettify, block, formatting 
 Requires at least: 2.0.2
 Tested up to: 2.7.1
-Stable tag: tags/v1.0 
+Stable tag: tags/1.0 
 
 The Code Block Enabler is a plugin that allows code blocks within Wordpress pages/posts and also colorizes the output using Google Prettify.
 
@@ -38,7 +38,7 @@ This section describes how to install the plugin and get it working.
 
 1. Upload the `code_block_enabler/` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Write posts/pages while using the `<code>` and `</code>` block
+1. Write posts/pages while using the `<code></code>` block 
 1. Go to the Options page and click Writing. Make sure "WordPress should correct invalidly nested XHTML automatically" is NOT checked. (Otherwise it may do funny things to your code listings.)
 1. Go to the Users page and click Your Profile. Make sure "Use the visual rich editor when writing" is NOT checked. (The visual rich editor does not like Code Block Enabler.)
 
