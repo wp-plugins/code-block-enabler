@@ -36,7 +36,7 @@ USAGE
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the 'code_block_enabler/' folder to the `/wp-content/plugins/` directory
+1. Upload the `code_block_enabler/` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Write posts/pages while using the `<code>` and `</code>` block
 1. Go to the Options page and click Writing. Make sure "WordPress should correct invalidly nested XHTML automatically" is NOT checked. (Otherwise it may do funny things to your code listings.)
@@ -44,4 +44,4 @@ This section describes how to install the plugin and get it working.
 
 == Frequently Asked Questions ==
 
-None yet, but feel free to check the [Projects Page](http://www.digitaladept.com/projects/wordpress-plugin-code-block-enabler/) on DigitalAdept.com 
+None yet, but feel free to check the [Projects Page](http://www.digitaladept.com/projects/wordpress-plugin-code-block-enabler/) on DigitalAdept.com. There might have been issues posted that i havn't gotten to posting here yet! 
