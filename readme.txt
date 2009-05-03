@@ -3,7 +3,7 @@ Contributors: ahmedbm
 Tags: code, format, markup, java, xml, c#, c++, .net, html, prettify, block, formatting 
 Requires at least: 2.0.2
 Tested up to: 2.7.1
-Stable tag: 1.0 
+Stable tag: 1.0
 
 The Code Block Enabler is a plugin that allows code blocks within Wordpress pages/posts and also colorizes the output using Google Prettify.
 
